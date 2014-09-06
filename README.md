@@ -23,6 +23,7 @@ define command{
 ```
 Then add a contact such as the following:
 
+```
 define contact{
         contact_name                    nagiyos_all
         alias                           Alert all with nagiyos
