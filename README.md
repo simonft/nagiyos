@@ -5,10 +5,9 @@ account. If a cgi-path and host and/or service are also included, it
 will include a link to the problematic service in the Nagios web
 interface, or the Icinga Classic web interface
 
-If a username is included, it will YO that user. Otherwise, it will YO
-all users subsubscribed to it.
+If you only want to notify a singe user, you can specify one with the --user flag.
 
-In order to add this to nagioss, add a commands like the follwing:
+In order to add this to nagios, add a commands like the follwing:
 
 ```
 define command{
