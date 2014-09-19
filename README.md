@@ -12,11 +12,11 @@ In order to add this to nagios, add a commands like the follwing:
 ```
 define command{
 	command_name	service_nagiyos_all
-	command_line    $PATH_TO_NAGIYOS --api-key $API_KEY --host $HOSTNAME$ --service $SERVICEDESC$
+	command_line    $PATH_TO_NAGIYOS --api-token $API_KEY --host $HOSTNAME$ --service $SERVICEDESC$
 }
 define command{
 	command_name	host_nagiyos_all
-	command_line    $PATH_TO_NAGIYOS --api-key $API_KEY --host $HOSTNAME$
+	command_line    $PATH_TO_NAGIYOS --api-token $API_KEY --host $HOSTNAME$
 }
 
 ```
